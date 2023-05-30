@@ -6,7 +6,9 @@
   let loading = false;
 </script>
 
-<div>
+<a href="/customers/create">Create customer</a>
+
+<div class="mt-8">
   {#each customers as customer}
     <div>
       <div>
